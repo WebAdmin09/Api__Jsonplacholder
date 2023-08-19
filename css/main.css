@@ -1,0 +1,194 @@
+body {
+    background-image: url("../images/ZenBG.png");
+    background-repeat: repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.title__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.posts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.comment__wrapper{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    align-items: flex-start;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.photos__wrapper{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 50px;
+    column-gap: 150px;
+}
+.images__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+}
+.images{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.card__menu {
+    background: radial-gradient(circle, rgba(139, 227, 185, 0.2801453833486519) 0%, rgba(224, 221, 226, 0.51824062144389) 70%);
+    min-width: 350px;
+    min-height: 300px;
+    padding: 15px;
+}
+
+.title__menu {
+    background: radial-gradient(circle, rgba(139, 227, 185, 0.2801453833486519) 0%, rgba(224, 221, 226, 0.51824062144389) 70%);
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    padding: 25px;
+}
+
+.posts__menu {
+    background: radial-gradient(circle, rgba(139, 227, 185, 0.2801453833486519) 0%, rgba(224, 221, 226, 0.51824062144389) 70%);
+    max-width: 300px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.comments__menu{
+    background: radial-gradient(circle, rgba(139, 227, 185, 0.2801453833486519) 0%, rgba(224, 221, 226, 0.51824062144389) 70%);
+    max-width: 1200px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.photos__menu{
+    background: radial-gradient(circle, rgba(139, 227, 185, 0.2801453833486519) 0%, rgba(224, 221, 226, 0.51824062144389) 70%);
+    max-width: 1200px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.card-id {
+    margin-top: 0;
+    background-color: orange;
+    max-width: 35px;
+    max-height: 35px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.tods-id {
+    margin-top: 0;
+    background-color: orange;
+    max-width: 55px;
+    max-height: 35px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.tods__span {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.cardName {
+    margin-top: -30px;
+    color: #ffffff;
+    max-width: 160px;
+    padding: 2px;
+}
+.commentName{
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.cardUsername {
+    margin-top: 0;
+    color: rgb(222, 226, 94);
+}
+
+.cardEmail {
+    color: #2de5e8;
+    font-size: 15px;
+}
+
+.cardAdress {
+    font-size: 20px;
+    color: beige;
+}
+
+.card__btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardPhone {
+    color: rebeccapurple;
+    font-size: 20px;
+}
+
+.cardBtn {
+    background: var(--main-secondary, #70C05B);
+    border: 1px solid var(--main-secondary, #70C05B);
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cardBtn:hover {
+    background-color: #ffffff;
+    color: #70C05B;
+    transition: 0.5s;
+}
